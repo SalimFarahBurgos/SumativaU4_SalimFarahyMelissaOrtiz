@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal - Estilo Michael Jackson</title>
+
+  <style>
+    /* ===== Estilos Globales ===== */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+
+      /* Fondo con imagen de Michael Jackson */
+      background: url("https://miro.medium.com/v2/resize:fit:2000/1*0q5hLbYECFfgVh4PmegYrg.png") no-repeat center center;
+  background-size: cover;
+      background-color: black;
+      color: white;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 25px;
+      text-align: center;
+      color: #ffdb58; /* color dorado */
+      font-size: 2.2rem;
+      font-weight: bold;
+      border-bottom: 4px solid #e60000; /* rojo estilo Thriller */
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin: 25px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      padding: 14px 28px;
+      background: #e60000; /* rojo vibrante */
+      color: white;
+      border-radius: 8px;
+      font-size: 1.15rem;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 0 12px #000;
+    }
+
+    nav a:hover {
+      background: #b30000;
+      transform: scale(1.07);
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+
+    .section-box {
+      background: rgba(0, 0, 0, 0.7);
+      border: 2px solid #ffdb58;
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.9);
+    }
+
+    .section-title {
+      font-size: 1.7rem;
+      margin-bottom: 14px;
+      color: #ffdb58; /* dorado MJ */
+    }
+
+    .image-placeholder {
+      width: 100%;
+      height: 230px;
+      background: #333;
+      border: 2px dashed #777;
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 18px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #ffdb58;
+      font-size: 1rem;
+      border-top: 4px solid #e60000;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== Encabezado ===== -->
+  <header>
+    🎵 Bienvenid@ al Mundo de Michael Jackson 👑
+  </header>
+
+  <!-- ===== Barra de Navegación ===== -->
+  <nav>
+    <a href="biografia.html">Biografía</a>
+    <a href="logros.html">Logros</a>
+  </nav>
+
+  <!-- ===== Contenido Principal ===== -->
+  <div class="container">
+
+    <!-- Sección de Introducción -->
+    <div class="section-box">
+      <div class="section-title">Sobre Michael</div>
+      <!-- Aquí va tu texto principal -->
+      <p>Michael Jackson es un artista reconocido a nivel mundial por su talento, creatividad y constante innovación musical. Su trabajo ha marcado generaciones y continúa influyendo en la música, el baile y la cultura popular.
+A lo largo de su carrera, Michael se ha distinguido por su estilo único, su capacidad para conectar con el público y su compromiso con transmitir emociones a través de cada canción y presentación.
+Más allá del escenario, su visión artística y su dedicación lo han convertido en una figura influyente, siempre en búsqueda de nuevas formas de expresión y de impacto positivo a través del arte.
+</p>
+      <video class="video-style" autoplay muted loop playsinline>
+  <source src="PixVerse_V5.6_Image_Text_360P_create_a_video_o.mp4" type="video/mp4">
+  Tu navegador no soporta videos HTML5.
+</video>
+
+    </div>
+
+    <!-- Sección de Galería -->
+    <div class="section-box">
+      <div class="section-title">Galería</div>
+      <img style="width: 100%; height: 600px; object-fit: cover; border: 2px dashed #777; border-radius: 10px; margin-bottom: 16px;" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Michael_Jackson_Live_in_Bucharest_1992_Toni_Salabasev.jpg" alt="Descripción de la imagen" class="image-real">
+      <img style="width: 100%; height: 600px; object-fit: cover; border: 2px dashed #777; border-radius: 10px; margin-bottom: 16px;" src="https://images.toopa.com/1308381_811258585534_the-king-of-pop-show.jpg" alt="Descripción de la imagen" class="image-real">
+    </div>
+
+    <!-- Sección de Frases o Datos -->
+    <div class="section-box">
+      <div class="section-title">Frases o Datos Interesantes</div>
+      <p>Michael Jackson es conocido como el “Rey del Pop” por su gran influencia en la música a nivel mundial.
+Desde muy joven demuestra un talento excepcional para el canto y el baile, destacándose por su disciplina y dedicación.
+Sus pasos de baile y su estilo visual se convierten en íconos de la cultura popular.
+A través de su música, Michael transmite mensajes de unión, paz y amor que conectan con personas de todas las generaciones.
+</p>
+    </div>
+
+  </div> <!-- /container -->
+
+  <!-- ===== Pie de Página ===== -->
+  <div class="footer">
+    © 2026 — Página dedicada a Michael Jackson
+  </div>
+
+</body>
+</html>
